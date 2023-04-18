@@ -1,0 +1,19 @@
+input{
+    outline:none;
+    font-size:15px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_icon:hover{
+  cursor: pointer;
+}

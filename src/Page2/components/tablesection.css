@@ -1,0 +1,23 @@
+.tablesection h2{
+    display: flex;
+  justify-content: center;
+}
+
+.tablesection table{
+    width: 80%;
+    position: relative;
+    top:20px
+}
+thead{
+    font-weight: 700;
+}
+
+.used_by :nth-child(3){
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+    width:0px;
+    height:0px;
+ 
+    
+}

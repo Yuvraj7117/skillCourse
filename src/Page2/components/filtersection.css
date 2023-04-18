@@ -1,0 +1,27 @@
+.filter_section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.filter_section div label{
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.save_button{
+    background-color: rgb(3, 127, 10);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width:5rem;
+    cursor: pointer;
+}
+
+.save_button :nth-child(1){
+    font-size: 20px;
+    padding: 5px;
+}

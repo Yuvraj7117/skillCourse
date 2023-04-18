@@ -1,0 +1,24 @@
+.filtersection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.category :hover{
+    cursor: pointer;
+}
+.filtersection div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid;
+    width:10%;
+    height: 40px;
+    border-radius:20px;
+    background-color: rgb(0, 131, 255);
+    color:#fff;
+    cursor: pointer;
+}
+
+
+
+

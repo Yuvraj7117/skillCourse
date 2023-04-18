@@ -1,0 +1,59 @@
+table{
+   width:100%;
+   text-align: center;
+}
+
+td {
+    padding: 15px;
+}
+
+.theadtablerow{
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.tbodytablerow td:nth-child(1){
+color: rgb(0, 131, 255);
+font-size: 15px;
+font-weight: 700;
+}
+
+.pagination_numbers{
+   position: absolute;
+   top:90vh;
+   left:35vw;
+   color:rgb(0, 131, 255);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width:10%;
+}
+
+.pagination_numbers :hover{
+   cursor: pointer;
+}
+
+.pagination_numbers button{
+    border:none;
+    color:rgb(0, 131, 255);
+}
+
+.active{
+    font-size: 25px;
+}
+
+.data{
+    cursor: pointer;
+}
+
+.data :first-child{
+    color:rgb(0, 131, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+.prev_button{
+    color:grey
+}
+.next_button{
+    color:grey
+}
